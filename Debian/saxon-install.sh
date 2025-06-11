@@ -18,7 +18,6 @@ echo "Starting SaxonC installation on Debian-based Docker image..."
 echo "Installing build dependencies..."
 
 # List of packages this script intends to install for build and utility purposes.
-# openjdk-17-jre-headless is NOT in this list as it's a runtime dependency and should NOT be purged.
 BUILD_AND_UTILITY_PACKAGES="build-essential libxml2-dev libxslt1-dev curl unzip"
 
 # Take a snapshot of all currently installed packages *before* this script installs anything new.
